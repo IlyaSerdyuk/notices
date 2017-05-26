@@ -6,7 +6,7 @@ use InvalidArgumentException;
 use Zend\View\Helper\AbstractHelper;
 use Zend\View\Helper\EscapeHtml;
 use Zend\View\Helper\TranslatorAwareTrait;
-use Notices\Controller\Plugin\Notices as PluginNotices;
+use ZFbase\Notices\Controller\Plugin\Notices as PluginNotices;
 use ZFbase\Notices\Message;
 
 class Notices extends AbstractHelper
