@@ -1,6 +1,6 @@
 <?php
 
-namespace Notices;
+namespace ZFbase\Notices;
 
 use Zend\ServiceManager\Factory\InvokableFactory;
 

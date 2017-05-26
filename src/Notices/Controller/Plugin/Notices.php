@@ -1,6 +1,6 @@
 <?php
 
-namespace Notices\Controller\Plugin;
+namespace ZFbase\Notices\Controller\Plugin;
 
 use Countable;
 use ArrayIterator;
@@ -9,7 +9,7 @@ use Zend\Mvc\Controller\Plugin\AbstractPlugin;
 use Zend\Session\Container;
 use Zend\Session\ManagerInterface as Manager;
 use Zend\Stdlib\SplQueue;
-use Notices\Message;
+use ZFbase\Notices\Message;
 
 class Notices extends AbstractPlugin implements Countable, IteratorAggregate
 {

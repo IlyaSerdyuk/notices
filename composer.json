@@ -15,11 +15,11 @@
     ],
     "minimum-stability": "dev",
     "autoload": {
-        "psr-4": {"Notices\\" : "src/Notices"}
+        "psr-4": {"ZFbase\\Notices\\" : "src/Notices"}
     },
     "extra": {
         "zf": {
-            "module": "Notices"
+            "module": "ZFbase\\Notices"
         }
     }
 }

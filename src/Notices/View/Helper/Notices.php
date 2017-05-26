@@ -1,13 +1,13 @@
 <?php
 
-namespace Notices\View\Helper;
+namespace ZFbase\Notices\View\Helper;
 
 use InvalidArgumentException;
 use Zend\View\Helper\AbstractHelper;
 use Zend\View\Helper\EscapeHtml;
 use Zend\View\Helper\TranslatorAwareTrait;
 use Notices\Controller\Plugin\Notices as PluginNotices;
-use Notices\Message;
+use ZFbase\Notices\Message;
 
 class Notices extends AbstractHelper
 {
