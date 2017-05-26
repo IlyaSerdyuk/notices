@@ -1,6 +1,6 @@
 <?php
 
-namespace Application\View\Helper;
+namespace Notices\View\Helper;
 
 use Zend\ServiceManager\Factory\FactoryInterface;
 use Interop\Container\ContainerInterface;
