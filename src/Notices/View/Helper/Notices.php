@@ -50,10 +50,10 @@ class Notices extends AbstractHelper
      * @var array|string[]
      */
     protected $labelsForClasses = [
-        Message::CLASS_SUCCESS => 'Well done!',
-        Message::CLASS_INFO => 'Information!',
-        Message::CLASS_WARNING => 'Warning!',
-        Message::CLASS_ERROR => 'Error!',
+        Message::CLASS_SUCCESS => 'Успешно:',
+        Message::CLASS_INFO => 'Информация:',
+        Message::CLASS_WARNING => 'Предупреждение:',
+        Message::CLASS_ERROR => 'Ошибка:',
     ];
 
     /**
