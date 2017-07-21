@@ -146,9 +146,9 @@ class Notices extends AbstractPlugin implements Countable, IteratorAggregate
     }
 
     /**
-     * Get messages
+     * Get all messages
      *
-     * @return type
+     * @return array|Message[]
      */
     public function getMessages()
     {
@@ -177,12 +177,16 @@ class Notices extends AbstractPlugin implements Countable, IteratorAggregate
 
         return false;
     }
-    
-    
+
+    /**
+     * Get message off the end of array
+     *
+     * @return Message
+     */
     public function popMessage()
     {
         $container = $this->getContainer();
-        
+
         if ($container->notices instanceof SplQueue) {
             return $container->notices->dequeue();
         }

@@ -32,10 +32,13 @@ class Notices extends AbstractHelper
      *
      * @var string
      */
-    protected $messageTemplateString = '<div class="alert alert-{class} alert-dismissible" role="alert">'
-                                     . '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>'
-                                     . '<strong>{label}</strong> {text}'
-                                     . '</div>';
+    protected $messageTemplateString =
+        '<div class="alert alert-{class} alert-dismissible" role="alert">' .
+        '<button type="button" class="close" data-dismiss="alert" aria-label="Close">' .
+        '<span aria-hidden="true">&times;</span>' .
+        '</button>' .
+        '<strong>{label}</strong> {text}' .
+        '</div>';
 
     /**
      * Notices plugin
@@ -50,10 +53,10 @@ class Notices extends AbstractHelper
      * @var array|string[]
      */
     protected $labelsForClasses = [
-        Message::CLASS_SUCCESS => 'Успешно:',
-        Message::CLASS_INFO => 'Информация:',
-        Message::CLASS_WARNING => 'Предупреждение:',
-        Message::CLASS_ERROR => 'Ошибка:',
+        Message::CLASS_SUCCESS => 'Well done!',
+        Message::CLASS_INFO => 'Information!',
+        Message::CLASS_WARNING => 'Warning!',
+        Message::CLASS_ERROR => 'Error!',
     ];
 
     /**
@@ -69,7 +72,7 @@ class Notices extends AbstractHelper
         if ($pluginNotices->hasMessages()) {
             $messages = $pluginNotices->getMessages();
             $pluginNotices->clearMessages();
-            
+
             foreach ($messages as $message) {
                 $markup .= $this->renderMessage($message);
             }
