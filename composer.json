@@ -1,5 +1,5 @@
 {
-    "name": "zfbase/notices",
+    "name": "ilyaserdyuk/notices",
     "type": "library",
     "description": "Notices for Zend Framework 2/3",
     "keywords": ["zf2", "zf3", "mvc", "messager", "notices"],

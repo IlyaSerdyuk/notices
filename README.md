@@ -39,7 +39,6 @@ Output:
     You successfully read this important alert message.
 </div>
 
-
 <div class="alert alert-info alert-dismissible" role="alert">
     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
         <span aria-hidden="true">&times;</span>
@@ -48,7 +47,6 @@ Output:
     This alert needs your attention, but it's not super important.
 </div>
 
-
 <div class="alert alert-warning alert-dismissible" role="alert">
     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
         <span aria-hidden="true">&times;</span>
@@ -56,7 +54,6 @@ Output:
     <strong>Warning!</strong>
     Better check yourself, you're not looking too good.
 </div>
-
 
 <div class="alert alert-danger alert-dismissible" role="alert">
     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
