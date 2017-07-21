@@ -5,7 +5,13 @@ Extension for displaying messages in Zend Framework 2/3 and Twitter bootstrap 3 
 
 ## Installation
 
-Add to layout:
+Use [Composer](http://getcomposer.org):
+
+```bash
+$ composer require ilyaserdyuk/notices
+```
+
+And add to layout:
 ```html
 <?= $this->notices() ?>
 ```
