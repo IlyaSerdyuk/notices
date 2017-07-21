@@ -8,7 +8,7 @@ Extension for displaying messages in Zend Framework 2/3 and Twitter bootstrap 3 
 Use [Composer](http://getcomposer.org):
 
 ```bash
-$ composer require ilyaserdyuk/notices:^1.0@dev
+$ composer require ilyaserdyuk/notices:^1.0
 ```
 
 And add to layout:
