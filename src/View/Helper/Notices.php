@@ -225,7 +225,7 @@ class Notices extends AbstractHelper
      */
     public function setLabelByClass($class, $label)
     {
-        if (! in_array($class, Message::getClassList())) {
+        if (! in_array($class, array_keys(Message::getClassList()))) {
             throw new InvalidArgumentException(sprintf('Class "%s" is not allowed', $class));
         }
 
@@ -241,7 +241,7 @@ class Notices extends AbstractHelper
      */
     public function getLabelByClass($class)
     {
-        if (! in_array($class, Message::getClassList())) {
+        if (! in_array($class, array_keys(Message::getClassList()))) {
             throw new InvalidArgumentException(sprintf('Class "%s" is not allowed', $class));
         }
 

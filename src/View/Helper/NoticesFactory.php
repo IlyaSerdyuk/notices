@@ -33,7 +33,7 @@ class NoticesFactory implements FactoryInterface
             }
 
             if (isset($configHelper['label_for_status']) && is_array($configHelper['label_for_status'])) {
-                foreach ($configHelper['label_for_status'] as $status => $label) {
+                foreach ($configHelper['label_for_status'] as $class => $label) {
                     $helper->setLabelByClass($class, $label);
                 }
             }
