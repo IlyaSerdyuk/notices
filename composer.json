@@ -1,8 +1,12 @@
 {
     "name": "zfbase/notices",
-    "description": "Notices for Zend Framework",
-    "keywords": ["zf2", "zf3", "mvc", "messager", "notices"],
     "type": "library",
+    "description": "Notices for Zend Framework 2/3",
+    "keywords": ["zf2", "zf3", "mvc", "messager", "notices"],
+    "license": "MIT",
+    "authors": [
+        {"name": "Ilya Serdyuk", "email": "ilya@serdyuk.pro"}
+    ],
     "require": {
         "php": "^5.6 || ^7.0",
         "container-interop/container-interop": "^1.1.0",
@@ -12,15 +16,14 @@
         "zendframework/zend-view": "^2.6.7",
         "zendframework/zend-mvc": "^3.0"
     },
-    "license": "MIT",
-    "authors": [
-        {"name": "Ilya Serdyuk", "email": "ilya@serdyuk.pro"}
-    ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {"ZFbase\\Notices\\" : "src"}
     },
+    "minimum-stability": "dev",
     "extra": {
+        "branch-alias": {
+            "dev-master": "1.0"
+        },
         "zf": {
             "module": "ZFbase\\Notices"
         }
