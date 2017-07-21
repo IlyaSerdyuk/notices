@@ -4,7 +4,7 @@ namespace ZFbase\Notices;
 
 class Module
 {
-    const VERSION = '1.0';
+    const VERSION = '1.0-dev';
 
     public function getConfig()
     {
