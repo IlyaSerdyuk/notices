@@ -21,8 +21,8 @@ class IndexController extends AbstractActionController
     public function indexAction()
     {
         $this->notices()->addSuccessMessage('You successfully read this important alert message.');
-        $this->notices()->addInfoMessage('This alert needs your attention, but it's not super important.');
-        $this->notices()->addWarningMessage('Better check yourself, you're not looking too good.');
+        $this->notices()->addInfoMessage('This alert needs your attention, but it\'s not super important.');
+        $this->notices()->addWarningMessage('Better check yourself, you\'re not looking too good.');
         $this->notices()->addErrorMessage('Change a few things up and try submitting again.');
     }
 }
